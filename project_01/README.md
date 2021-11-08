@@ -34,18 +34,18 @@ Assorted Jumper Wires
 
 # BUILD INSTRUCTIONS
 
-Power Rail 1
+1.  Power Rail 1
     * Connect power rail 1 to PocketBeagle P1_14 (3.3 V).
-Ground Rail 1
+2.  Ground Rail 1
     * Connect ground rail 1 to PocketBeagle P1_16 (GND).
-Yellow Button
+3.  Yellow Button
     * Connect one pin both to PocketBeagle P2_2 (GPIO) and to a 1KΩ pullup 
       resistor (that is connected to power rail 1).
     * Connect other pin to ground rail 1.
-Yellow LED
+4.  Yellow LED
     * Connect anode to PocketBeagle P2_4 (GPIO).
     * Connect cathode to ground rail 1.
-Temperature Sensor
+5.  Temperature Sensor
     * Connect VIN pin both to a 0.1μF Capacitor (that is connected to ground) 
       and to power rail 1.
     * Connect GND pin to ground rail 1.
@@ -53,22 +53,22 @@ Temperature Sensor
       resistor (that is connected to power rail 1).
     * Connect SDA pin both to PocketBeagle P1_26 (SCL) and to a 10KΩ pullup 
       resistor (that is connected to power rail 1).
-Blue Button
+6.  Blue Button
     * Connect one pin both to PocketBeagle P2_6 (GPIO) and to a 1KΩ pullup 
         resistor (that is connected to power rail 1).
     * Connect other pin to ground rail 1.
-Blue LED
+7.  Blue LED
     * Connect anode to PocketBeagle P2_8 (GPIO).
     * Connect cathode to ground rail 1.
-Servo
+8.  Servo
     * Connect VCC pin to PocketBeagle P1_24 (5V VOUT).
     * Connect GND pin to PocketBeagle P1_22 (GND).
     * Connect SIGNAL pin to PocketBeagle P1_36 (PWM0).
-Power Rail 2
+9.  Power Rail 2
     * Connect power rail 2 to PocketBeagle P1_7 (5V VIN).
-Ground Rail 2
+10. Ground Rail 2
     * Connect ground rail 2 to PocketBeagle P1_15 (GND)
-Motor Driver and Left/Right Motor
+11. Motor Driver and Left/Right Motor
     * Connect VCC2 and VCC1 pins to power rail 2.
     * Connect four GND pins to ground rail 2.
     * Connect 1,2EN pin to PocketBeagle P1_33 (GPIO).
@@ -81,7 +81,7 @@ Motor Driver and Left/Right Motor
     * Connect 3Y pin to left black motor wire.
     * Connect 4Y pin to left motor red wire.
     * Connect 4A pin to PocketBeagle P1_34 (GPIO).
-Chassis
+12. Chassis
     * Laser cut chassis vector template out of foam core
     * Using hot glue, assemble foam chassis so that 
     * (first) the wheels and back wooden dowel are between levels 1 and 2.
