@@ -3,6 +3,7 @@
 Hackster Project can be found at 
 https://www.hackster.io/summer-barrette/mood-drawing-robot-949c22.
 
+
 # STORY
 
 My project is a mood-drawing robot. The project was inspired by the idea of 
@@ -93,7 +94,18 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
       level 2.
     * Tie the servo to the pen with a thin wire; ensure servo pushes pen down 
       into the ground when ‘on’ and pulls pen up off the ground when ‘off’.
-      
+
+
+# CODE
+
+There are four main documents in this repository.
+1.	The main script titled robot.py contains all library imports, constants, 
+    global variables, function and class definitions, and name call code.
+2.	The pin configurations titled configure_pins.sh configures specific pins 
+    for I2C and GPIO as needed.
+3.	The run script ./run runs configure_pins.sh then robot.py.
+4.	The ReadMe provides the build and operation instructions.
+
 
 # OPERATION INSTRUCTIONS
 
@@ -120,3 +132,23 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
     directly after the previous temperature sequence. And the robot can re-draw 
     the same smiley or frowny face by hitting the blue button directly after 
     the previous drawing sequence.
+
+
+# AUTOBOOT ON POWER UP
+
+1.	To make the run script automatically run on power up, enter the cron 
+    scheduler of the PocketBeagle by running the command sudo crontab -e on the 
+    command line and entering the correct username and password when prompted.
+2.	In the crontab window, enter the line below to cause the PocketBeagle after 
+    reboot to sleep for 30 seconds, run the run script, and save all outputs to 
+    logs. Exit the crontab and save the edits.
+
+    @reboot sleep 30 && sh /var/lib/cloud9/ENGI301/project_01/run.sh > 
+    /var/lib/cloud9/logs/cronlog 2>&1
+
+3.	Ensure that the directory /var/lib/cloud9/logs exists. This is where 
+    outputs from the run script including error messages are recorded. If it 
+    does not exist, create a new directory by running the command mkdir logs on 
+    the command line.
+4.	Turn the PocketBeagle off and back on, and the run script should run 
+    automatically.
