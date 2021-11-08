@@ -144,7 +144,7 @@ There are four main documents in this repository.
     reboot to sleep for 30 seconds, run the run script, and save all outputs to 
     logs. Exit the crontab and save the edits.
 
-    @reboot sleep 30 && sh /var/lib/cloud9/ENGI301/project_01/run.sh > 
+    @reboot sleep 30 && sh /var/lib/cloud9/ENGI301/project_01/run > 
     /var/lib/cloud9/logs/cronlog 2>&1
 
 3.	Ensure that the directory /var/lib/cloud9/logs exists. This is where 
