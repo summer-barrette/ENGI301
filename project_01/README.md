@@ -16,20 +16,20 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
 
 # PARTS LIST
 
-1 Pocket Beagle
-1 Adafruit Si7021 Temperature & Humidity Sensor
-1 SG90 Micro-Servo Motor
-1 L293x Quadruple Half-H Drivers
-2 DC Gear Motors with Smart Car Robot Plastic Tire Wheel
-2 Buttons (Yellow and Blue)
-2 LEDs (Yellow and Blue)
-2 1KΩ Resistors
-2 10KΩ Resistors
-1 0.1μF Capacitor
-1 Solderless Breadboard (Half)
-Assorted Jumper Wires
-1 Pen Ink Cartridge
-1 Wooden Dowel
+*   1 Pocket Beagle
+*   1 Adafruit Si7021 Temperature & Humidity Sensor
+*   1 SG90 Micro-Servo Motor
+*   1 L293x Quadruple Half-H Drivers
+*   2 DC Gear Motors with Smart Car Robot Plastic Tire Wheel
+*   2 Buttons (Yellow and Blue)
+*   2 LEDs (Yellow and Blue)
+*   2 1KΩ Resistors
+*   2 10KΩ Resistors
+*   1 0.1μF Capacitor
+*   1 Solderless Breadboard (Half)
+*   Assorted Jumper Wires
+*   1 Pen Ink Cartridge
+*   1 Wooden Dowel
 
 
 # BUILD INSTRUCTIONS
