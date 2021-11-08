@@ -1,7 +1,7 @@
 # MOOD-DRAWING ROBOT
 
 Hackster Project can be found at 
-https://www.hackster.io/projects/949c22/edit#story
+https://www.hackster.io/summer-barrette/mood-drawing-robot-949c22
 
 # STORY
 
@@ -89,7 +89,7 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
     * (first) the wheels and back wooden dowel are between levels 1 and 2.
     * (second) the PocketBeagle and servo are between levels 2 and 3.
     * (third) the solderless breadboard is above level 3.
-    * (fourth) the front wooden dowel and pencil go from the ground to above 
+    * (fourth) the front wooden dowel and pen go from the ground to above 
       level 2.
     * Tie the servo to the pen with a thin wire; ensure servo pushes pen down 
       into the ground when ‘on’ and pulls pen up off the ground when ‘off’
