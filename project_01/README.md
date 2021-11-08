@@ -1,7 +1,7 @@
 # MOOD-DRAWING ROBOT
 
 Hackster Project can be found at 
-https://www.hackster.io/summer-barrette/mood-drawing-robot-949c22
+https://www.hackster.io/summer-barrette/mood-drawing-robot-949c22.
 
 # STORY
 
@@ -69,7 +69,7 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
 *   Power Rail 2
     * Connect power rail 2 to PocketBeagle P1_7 (5V VIN).
 *   Ground Rail 2
-    * Connect ground rail 2 to PocketBeagle P1_15 (GND)
+    * Connect ground rail 2 to PocketBeagle P1_15 (GND).
 *   Motor Driver and Left/Right Motor
     * Connect VCC2 and VCC1 pins to power rail 2.
     * Connect four GND pins to ground rail 2.
@@ -92,26 +92,29 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
     * (fourth) the front wooden dowel and pen go from the ground to above 
       level 2.
     * Tie the servo to the pen with a thin wire; ensure servo pushes pen down 
-      into the ground when ‘on’ and pulls pen up off the ground when ‘off’
+      into the ground when ‘on’ and pulls pen up off the ground when ‘off’.
       
 
 # OPERATION INSTRUCTIONS
 
 1.  Run the command ./run in the command line to run the run script
+    * The pins should be configured.
+    * The program should initialize.
+    * The program should print "Program Start".
 2.	Press the yellow button while either covering or not covering the 
     temperature sensor
-    * The yellow LED should turn on
-    * The temperature should be recorded and the mood (happy or sad) decided
-    * The yellow LED should turn off
+    * The yellow LED should turn on.
+    * The temperature should be recorded and the mood (happy or sad) decided.
+    * The yellow LED should turn off.
 3.	Set the robot in the center of a standard sheet of letter paper
     * (first) the paper is in a vertical orientation.
     * (second) the wooden dowel is on the top left corner of the paper.
     * (third) the front of the robot is facing and parallel to the top edge 
       of the paper.
 4.	Press the blue button
-    * The blue light should come on
-    * The robot should drive around while picking up and putting down the pen
-    * The robot should draw a frowny or smiley face
+    * The blue light should come on.
+    * The robot should drive around while picking up and putting down the pen.
+    * The robot should draw a frowny or smiley face.
 5.	The ‘temperature’ function and ‘drawing’ function do not have to be linear. 
     This means the temperature can be re-recorded by hitting the yellow button 
     directly after the previous temperature sequence. And the robot can re-draw 
