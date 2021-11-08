@@ -34,18 +34,18 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
 
 # BUILD INSTRUCTIONS
 
-1.  Power Rail 1
+*   Power Rail 1
     * Connect power rail 1 to PocketBeagle P1_14 (3.3 V).
-2.  Ground Rail 1
+*   Ground Rail 1
     * Connect ground rail 1 to PocketBeagle P1_16 (GND).
-3.  Yellow Button
+*   Yellow Button
     * Connect one pin both to PocketBeagle P2_2 (GPIO) and to a 1KΩ pullup 
       resistor (that is connected to power rail 1).
     * Connect other pin to ground rail 1.
-4.  Yellow LED
+*   Yellow LED
     * Connect anode to PocketBeagle P2_4 (GPIO).
     * Connect cathode to ground rail 1.
-5.  Temperature Sensor
+*   Temperature Sensor
     * Connect VIN pin both to a 0.1μF Capacitor (that is connected to ground) 
       and to power rail 1.
     * Connect GND pin to ground rail 1.
@@ -53,22 +53,22 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
       resistor (that is connected to power rail 1).
     * Connect SDA pin both to PocketBeagle P1_26 (SCL) and to a 10KΩ pullup 
       resistor (that is connected to power rail 1).
-6.  Blue Button
+*   Blue Button
     * Connect one pin both to PocketBeagle P2_6 (GPIO) and to a 1KΩ pullup 
         resistor (that is connected to power rail 1).
     * Connect other pin to ground rail 1.
-7.  Blue LED
+*   Blue LED
     * Connect anode to PocketBeagle P2_8 (GPIO).
     * Connect cathode to ground rail 1.
-8.  Servo
+*   Servo
     * Connect VCC pin to PocketBeagle P1_24 (5V VOUT).
     * Connect GND pin to PocketBeagle P1_22 (GND).
     * Connect SIGNAL pin to PocketBeagle P1_36 (PWM0).
-9.  Power Rail 2
+*   Power Rail 2
     * Connect power rail 2 to PocketBeagle P1_7 (5V VIN).
-10. Ground Rail 2
+*   Ground Rail 2
     * Connect ground rail 2 to PocketBeagle P1_15 (GND)
-11. Motor Driver and Left/Right Motor
+*   Motor Driver and Left/Right Motor
     * Connect VCC2 and VCC1 pins to power rail 2.
     * Connect four GND pins to ground rail 2.
     * Connect 1,2EN pin to PocketBeagle P1_33 (GPIO).
@@ -81,7 +81,7 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
     * Connect 3Y pin to left black motor wire.
     * Connect 4Y pin to left motor red wire.
     * Connect 4A pin to PocketBeagle P1_34 (GPIO).
-12. Chassis
+*   Chassis
     * Laser cut chassis vector template out of foam core
     * Using hot glue, assemble foam chassis so that 
     * (first) the wheels and back wooden dowel are between levels 1 and 2.
