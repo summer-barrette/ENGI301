@@ -95,21 +95,22 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
 
 # OPERATION INSTRUCTIONS
 
-1.	Press the yellow button while either covering or not covering the 
+1.  Run the command ./run in the command line to run the run script
+2.	Press the yellow button while either covering or not covering the 
     temperature sensor
     * The yellow LED should turn on
     * The temperature should be recorded and the mood (happy or sad) decided
     * The yellow LED should turn off
-2.	Set the robot in the center of a standard sheet of letter paper
+3.	Set the robot in the center of a standard sheet of letter paper
     * (first) the paper is in a vertical orientation.
     * (second) the wooden dowel is on the top left corner of the paper.
     * (third) the front of the robot is facing and parallel to the top edge 
       of the paper.
-3.	Press the blue button
+4.	Press the blue button
     * The blue light should come on
     * The robot should drive around while picking up and putting down the pen
     * The robot should draw a frowny or smiley face
-4.	The ‘temperature’ function and ‘drawing’ function do not have to be linear. 
+5.	The ‘temperature’ function and ‘drawing’ function do not have to be linear. 
     This means the temperature can be re-recorded by hitting the yellow button 
     directly after the previous temperature sequence. And the robot can re-draw 
     the same smiley or frowny face by hitting the blue button directly after 
