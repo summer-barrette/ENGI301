@@ -100,7 +100,7 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
 
 There are four main documents in this repository.
 1.	The main script titled robot.py contains all library imports, constants, 
-    global variables, function and class definitions, and name call code.
+    global variables, function and class definitions, and main name call code.
 2.	The pin configurations titled configure_pins.sh configures specific pins 
     for I2C and GPIO as needed.
 3.	The run script ./run runs configure_pins.sh then robot.py.
