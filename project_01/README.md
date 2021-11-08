@@ -124,9 +124,10 @@ There are four main documents in this repository.
     * (third) the front of the robot is facing and parallel to the top edge 
       of the paper.
 4.	Press the blue button
-    * The blue light should come on.
+    * The blue light should turn on.
     * The robot should drive around while picking up and putting down the pen.
     * The robot should draw a frowny or smiley face.
+    * The blue light should turn off.
 5.	The ‘temperature’ function and ‘drawing’ function do not have to be linear. 
     This means the temperature can be re-recorded by hitting the yellow button 
     directly after the previous temperature sequence. And the robot can re-draw 
@@ -137,8 +138,8 @@ There are four main documents in this repository.
 # AUTOBOOT ON POWER UP
 
 1.	To make the run script automatically run on power up, enter the cron 
-    scheduler of the PocketBeagle by running the command sudo crontab -e on the 
-    command line and entering the correct username and password when prompted.
+    scheduler by running the command 'sudo crontab -e' on the command line and
+    entering the correct username and password when prompted.
 2.	In the crontab window, enter the line below to cause the PocketBeagle after 
     reboot to sleep for 30 seconds, run the run script, and save all outputs to 
     logs. Exit the crontab and save the edits.
@@ -148,7 +149,7 @@ There are four main documents in this repository.
 
 3.	Ensure that the directory /var/lib/cloud9/logs exists. This is where 
     outputs from the run script including error messages are recorded. If it 
-    does not exist, create a new directory by running the command mkdir logs on 
-    the command line.
+    does not exist, create a new directory by running the command 'mkdir logs'
+    on the command line.
 4.	Turn the PocketBeagle off and back on, and the run script should run 
     automatically.
