@@ -542,38 +542,38 @@ chip</description>
 <pad name="P2_34" x="46.55" y="31.47" drill="0.889" diameter="1.524" shape="octagon"/>
 <pad name="P2_35" x="49.09" y="28.93" drill="0.889" diameter="1.524" shape="octagon"/>
 <pad name="P2_36" x="49.09" y="31.47" drill="0.889" diameter="1.524" shape="octagon"/>
-<text x="21.59" y="17.145" size="1.27" layer="21" font="vector" ratio="12">PocketBeagle</text>
+<text x="20.32" y="17.145" size="1.27" layer="21" font="vector" ratio="12">PocketBeagle</text>
 <text x="2.54" y="19.05" size="1.27" layer="21" font="vector" ratio="12" rot="R270" align="bottom-center">microUSB</text>
 <text x="53.34" y="17.78" size="1.27" layer="21" font="vector" ratio="12" rot="R90" align="bottom-center">microSD</text>
 <wire x1="1.524" y1="30.226" x2="14.732" y2="30.226" width="0.127" layer="21"/>
 <wire x1="14.732" y1="30.226" x2="14.732" y2="34.798" width="0.127" layer="21"/>
-<text x="4.826" y="31.47" size="0.762" layer="21" font="vector" ratio="12" align="center-right">59</text>
-<text x="8.45" y="32.639" size="0.762" layer="21" font="vector" ratio="12" align="bottom-center">58</text>
-<text x="10.99" y="32.639" size="0.762" layer="21" font="vector" ratio="12" align="bottom-center">57</text>
-<text x="13.53" y="32.639" size="0.762" layer="21" font="vector" ratio="12" align="bottom-center">60</text>
-<text x="10.99" y="33.655" size="0.889" layer="21" font="vector" ratio="12" align="bottom-center">GPIO</text>
+<text x="4.826" y="31.47" size="0.8128" layer="21" font="vector" ratio="12" align="center-right">59</text>
+<text x="8.45" y="32.639" size="0.8128" layer="21" font="vector" ratio="12" align="bottom-center">58</text>
+<text x="10.99" y="32.639" size="0.8128" layer="21" font="vector" ratio="12" align="bottom-center">57</text>
+<text x="13.53" y="32.639" size="0.8128" layer="21" font="vector" ratio="12" align="bottom-center">60</text>
+<text x="10.99" y="33.655" size="1.016" layer="21" font="vector" ratio="12" align="bottom-center">GPIO</text>
 <wire x1="0.254" y1="27.686" x2="51.054" y2="27.686" width="0.127" layer="21"/>
-<text x="31.31" y="33.147" size="0.889" layer="21" font="vector" ratio="12" align="bottom-center">UNUSED P2 PINS</text>
-<text x="46.55" y="2.413" size="0.762" layer="21" font="vector" ratio="12" align="top-center">111</text>
-<text x="44.01" y="2.413" size="0.762" layer="21" font="vector" ratio="12" align="top-center">114</text>
-<text x="41.47" y="2.413" size="0.762" layer="21" font="vector" ratio="12" align="top-center">117</text>
+<text x="31.31" y="33.147" size="1.016" layer="21" font="vector" ratio="12" align="bottom-center">UNUSED P2 PINS</text>
+<text x="46.55" y="2.413" size="0.8128" layer="21" font="vector" ratio="12" align="top-center">111</text>
+<text x="44.01" y="2.413" size="0.8128" layer="21" font="vector" ratio="12" align="top-center">114</text>
+<text x="41.47" y="2.413" size="0.8128" layer="21" font="vector" ratio="12" align="top-center">117</text>
 <wire x1="51.054" y1="27.686" x2="54.356" y2="27.686" width="0.127" layer="21"/>
 <wire x1="40.132" y1="10.16" x2="40.132" y2="4.826" width="0.127" layer="21"/>
 <wire x1="40.132" y1="4.826" x2="40.132" y2="1.27" width="0.127" layer="21"/>
-<text x="41.47" y="7.239" size="0.762" layer="21" font="vector" ratio="12" align="bottom-center">43</text>
-<text x="44.01" y="7.239" size="0.762" layer="21" font="vector" ratio="12" align="bottom-center">42</text>
-<text x="46.55" y="7.239" size="0.762" layer="21" font="vector" ratio="12" align="bottom-center">26</text>
+<text x="41.47" y="7.239" size="0.8128" layer="21" font="vector" ratio="12" align="bottom-center">43</text>
+<text x="44.01" y="7.239" size="0.8128" layer="21" font="vector" ratio="12" align="bottom-center">42</text>
+<text x="46.55" y="7.239" size="0.8128" layer="21" font="vector" ratio="12" align="bottom-center">26</text>
 <wire x1="47.752" y1="7.366" x2="47.752" y2="4.826" width="0.127" layer="21"/>
 <wire x1="47.752" y1="4.826" x2="47.752" y2="1.27" width="0.127" layer="21"/>
-<text x="50.292" y="6.07" size="0.762" layer="21" font="vector" ratio="12" align="center-left">PWM0A</text>
+<text x="50.292" y="6.07" size="0.8128" layer="21" font="vector" ratio="12" align="center-left">PWM0</text>
 <wire x1="47.752" y1="7.366" x2="51.054" y2="7.366" width="0.127" layer="21"/>
 <wire x1="51.054" y1="7.366" x2="54.61" y2="7.366" width="0.127" layer="21"/>
 <wire x1="47.752" y1="4.826" x2="53.594" y2="4.826" width="0.127" layer="21"/>
 <wire x1="51.054" y1="7.366" x2="51.054" y2="10.16" width="0.127" layer="21"/>
-<text x="38.93" y="7.239" size="0.762" layer="21" font="vector" ratio="12" align="bottom-center">SCL</text>
-<text x="36.39" y="7.239" size="0.762" layer="21" font="vector" ratio="12" align="bottom-center">SDA</text>
-<text x="33.85" y="7.239" size="0.762" layer="21" font="vector" ratio="12" rot="R270" align="center-right">VOUT</text>
-<text x="37.66" y="8.763" size="0.889" layer="21" font="vector" ratio="12" align="bottom-center">I2C2</text>
+<text x="38.93" y="7.239" size="0.8128" layer="21" font="vector" ratio="12" align="bottom-center">SCL</text>
+<text x="36.39" y="7.239" size="0.8128" layer="21" font="vector" ratio="12" align="bottom-center">SDA</text>
+<text x="33.85" y="7.239" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-right">VOUT</text>
+<text x="37.66" y="8.763" size="1.016" layer="21" font="vector" ratio="12" align="bottom-center">I2C2</text>
 <wire x1="40.132" y1="4.826" x2="35.052" y2="4.826" width="0.127" layer="21"/>
 <wire x1="35.052" y1="4.826" x2="35.052" y2="10.16" width="0.127" layer="21"/>
 <wire x1="35.052" y1="10.16" x2="40.132" y2="10.16" width="0.127" layer="21"/>
@@ -581,8 +581,8 @@ chip</description>
 <wire x1="29.972" y1="10.16" x2="29.972" y2="7.366" width="0.127" layer="21"/>
 <wire x1="29.972" y1="7.366" x2="29.972" y2="4.826" width="0.127" layer="21"/>
 <wire x1="29.972" y1="4.826" x2="35.052" y2="4.826" width="0.127" layer="21"/>
-<text x="31.31" y="7.239" size="0.762" layer="21" font="vector" ratio="12" rot="R270" align="center-right">GND</text>
-<text x="44.01" y="8.763" size="0.889" layer="21" font="vector" ratio="12" align="bottom-center">GPIO</text>
+<text x="31.31" y="7.239" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-right">GND</text>
+<text x="44.01" y="8.763" size="1.016" layer="21" font="vector" ratio="12" align="bottom-center">GPIO</text>
 <wire x1="40.132" y1="10.16" x2="47.752" y2="10.16" width="0.127" layer="21"/>
 <wire x1="47.752" y1="10.16" x2="47.752" y2="7.366" width="0.127" layer="21"/>
 <wire x1="51.054" y1="10.16" x2="54.864" y2="10.16" width="0.127" layer="21"/>
@@ -590,8 +590,8 @@ chip</description>
 <text x="53.086" y="25.654" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">P2</text>
 <wire x1="54.864" y1="24.892" x2="51.054" y2="24.892" width="0.127" layer="21"/>
 <wire x1="51.054" y1="24.892" x2="51.054" y2="27.686" width="0.127" layer="21"/>
-<text x="23.69" y="7.239" size="0.762" layer="21" font="vector" ratio="12" rot="R270" align="center-right">GND</text>
-<text x="21.15" y="7.239" size="0.762" layer="21" font="vector" ratio="12" rot="R270" align="center-right">3.3V</text>
+<text x="23.69" y="7.239" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-right">GND</text>
+<text x="21.15" y="7.239" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-right">3.3V</text>
 <wire x1="22.352" y1="4.826" x2="19.812" y2="4.826" width="0.127" layer="21"/>
 <wire x1="19.812" y1="4.826" x2="19.812" y2="10.16" width="0.127" layer="21"/>
 <wire x1="19.812" y1="10.16" x2="24.892" y2="10.16" width="0.127" layer="21"/>
@@ -600,17 +600,17 @@ chip</description>
 <wire x1="24.892" y1="7.366" x2="29.972" y2="7.366" width="0.127" layer="21"/>
 <wire x1="24.892" y1="4.826" x2="24.892" y2="0" width="0.127" layer="21"/>
 <wire x1="22.352" y1="4.826" x2="22.352" y2="2.286" width="0.127" layer="21"/>
-<text x="23.69" y="2.413" size="0.762" layer="21" font="vector" ratio="12" rot="R270" align="center-left">GND</text>
+<text x="23.69" y="2.413" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">GND</text>
 <wire x1="22.352" y1="4.826" x2="24.892" y2="4.826" width="0.127" layer="21"/>
-<text x="13.53" y="2.413" size="0.762" layer="21" font="vector" ratio="12" rot="R270" align="center-left">VIN</text>
+<text x="13.53" y="2.413" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">VIN</text>
 <wire x1="14.732" y1="4.826" x2="12.192" y2="4.826" width="0.127" layer="21"/>
 <wire x1="12.192" y1="4.826" x2="12.192" y2="0" width="0.127" layer="21"/>
 <wire x1="14.732" y1="4.826" x2="14.732" y2="2.286" width="0.127" layer="21"/>
 <wire x1="14.732" y1="2.286" x2="22.352" y2="2.286" width="0.127" layer="21"/>
-<text x="18.61" y="1.651" size="0.889" layer="21" font="vector" ratio="12" align="top-center">USB1</text>
+<text x="18.61" y="1.651" size="1.016" layer="21" font="vector" ratio="12" align="top-center">USB1</text>
 <wire x1="19.812" y1="10.16" x2="0" y2="10.16" width="0.127" layer="21"/>
-<text x="12.26" y="8.255" size="0.889" layer="21" font="vector" ratio="12" align="bottom-center">UNUSED P1 PINS</text>
-<text x="32.58" y="1.651" size="0.889" layer="21" font="vector" ratio="12" align="top-center">UNUSED P1 PINS</text>
+<text x="12.26" y="8.255" size="1.016" layer="21" font="vector" ratio="12" align="bottom-center">UNUSED P1 PINS</text>
+<text x="32.58" y="1.651" size="1.016" layer="21" font="vector" ratio="12" align="top-center">UNUSED P1 PINS</text>
 <wire x1="40.132" y1="1.27" x2="47.752" y2="1.27" width="0.127" layer="21"/>
 </package>
 <package name="MOTOR_DRIVER">
@@ -1566,6 +1566,18 @@ Sizes: 0402, 0603 &amp; 0805</description>
 <wire x1="325.12" y1="27.94" x2="325.12" y2="101.6" width="0.1524" layer="97"/>
 <text x="330.2" y="93.98" size="5.08" layer="97">Mechanicals</text>
 <text x="157.48" y="154.94" size="1.778" layer="97">Temp: -40C : 125C</text>
+<text x="22.86" y="180.34" size="1.778" layer="97">Change config-pin of
+P1_29 (GPIO 117)
+P1_30 (GPIO 43)
+P1_31 (GPIO 114)
+P1_32 (GPIO 42)
+P1_33 (GPIO 111)
+P1_34 (GPIO 26)
+to GPIO</text>
+<text x="134.62" y="154.94" size="1.778" layer="97" align="bottom-right">Change config-pin of
+P1_26 (GPIO I2C2 SDA)
+P1_28 (GPIO I2C2 SCL)
+to I2C</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -2109,6 +2121,10 @@ Sizes: 0402, 0603 &amp; 0805</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="9.0" severity="warning">
 Since Version 9.0, EAGLE supports the align property for labels. 
 Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
