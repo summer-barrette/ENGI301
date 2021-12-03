@@ -31,26 +31,39 @@ board for the Mood-Drawing Robot.
 # PARTS LIST
 
 *   1 Pocket Beagle
-*   1 Adafruit Si7021 Temperature & Humidity Sensor
 *   1 SG90 Micro-Servo Motor
 *   1 L293x Quadruple Half-H Drivers
 *   2 DC Gear Motors with Smart Car Robot Plastic Tire Wheel
 *   2 Buttons (Yellow and Blue)
-*   2 LEDs (Yellow and Blue)
-*   2 1KΩ Resistors
-*   2 10KΩ Resistors
-*   1 0.1μF Capacitor
-*   1 Solderless Breadboard (Half)
 *   1 Pen Ink Cartridge
 *   1 Wooden Dowel
+
+*   1 Printed Ciruit Board with
+    * 1 Adafruit Si7021 Temperature & Humidity Sensor
+    * 2 LEDs (Yellow and Blue)
+    * 2 1KΩ Resistors
+    * 2 10KΩ Resistors
+    * 1 0.1μF Capacitor
 
 
 # BUILD INSTRUCTIONS
 
-*   Solder PocketBeagle to PocketBeagle Outline
-*   Solder L293x Quadruple Half-H Drivers to U2 Outline
-*   Solder SG90 Micro-Servo Motor wires to U4 power, signal, and ground pads
-*   Solder DC Gear Motors to M1 and M2 power and ground pads
+*   Solder Through-hole Components
+    * Solder PocketBeagle to PocketBeagle Outline
+    * Solder Adafruit Si7021 Temperature & Humidity Sensor to U3 Outline
+    * Solder L293x Quadruple Half-H Drivers to U2 Outline
+    * Solder SG90 Micro-Servo Motor wires to U4 power, signal, and ground pads
+    * Solder DC Gear Motors to M1 and M2 power and ground pads
+*   Construct Chassis
+    * Laser cut chassis vector template out of foam core
+    * Using hot glue, assemble foam chassis so that 
+    * (first) the wheels and back wooden dowel are between levels 1 and 2.
+    * (second) the PocketBeagle and servo are between levels 2 and 3.
+    * (third) the solderless breadboard is above level 3.
+    * (fourth) the front wooden dowel and pen go from the ground to above 
+      level 2.
+    * Tie the servo to the pen with a thin wire; ensure servo pushes pen down 
+      into the ground when ‘on’ and pulls pen up off the ground when ‘off’.
 
 
 # OPERATION INSTRUCTIONS
