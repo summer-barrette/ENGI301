@@ -37,7 +37,6 @@ board for the Mood-Drawing Robot.
 *   2 Buttons (Yellow and Blue)
 *   1 Pen Ink Cartridge
 *   1 Wooden Dowel
-
 *   1 Printed Ciruit Board with
     * 1 Adafruit Si7021 Temperature & Humidity Sensor
     * 2 LEDs (Yellow and Blue)
