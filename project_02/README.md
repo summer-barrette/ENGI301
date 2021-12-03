@@ -48,7 +48,6 @@ board for the Mood-Drawing Robot.
 # BUILD INSTRUCTIONS
 
 *   Solder PocketBeagle to PocketBeagle Outline
-*   Solder Adafruit Si7021 Temperature & Humidity Sensor to U3 Outline
 *   Solder L293x Quadruple Half-H Drivers to U2 Outline
 *   Solder SG90 Micro-Servo Motor wires to U4 power, signal, and ground pads
 *   Solder DC Gear Motors to M1 and M2 power and ground pads
