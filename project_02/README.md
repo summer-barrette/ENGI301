@@ -20,7 +20,7 @@ user a corresponding smiley or frowny face on a standard sheet of letter paper.
 This repository contains the files necessary for manufacturing a printed circuit 
 board for the Mood-Drawing Robot. 
 *   "robot docs" contains (1) the original proposal, (2) schematics as a PDF, 
-    (3) top and bottom assembly views with associated dimensions, (4) a bill of     
+    (3) top and bottom assembly views with associated dimensions, (4) a bill of  
     materials, and (5) previews of the top and bottom layer Gerber files.
 *   "robot eagle" contains all the Eagle files used to build the printed circuit
     board design including (1) library of components, (2) schematics, (3) design
