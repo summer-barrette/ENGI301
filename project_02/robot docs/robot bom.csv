@@ -2,7 +2,7 @@
 1,C1,0.1F,0603 Capacitor,MacroFab,MF-CAP-0603-0.1uF,Capacitor MLCC 0603 0.1uF 10% 25V
 1,D1,Yellow,0603 LED,ROHM,SML-310YTT86,ROHM SML-310YTT86; SML31 Series Yellow LED; 1608(0603); Rectangle Lens SMD package
 1,D2,Blue,0603 LED,ROHM,SML312BCTT86,ROHM SML312BCTT86; SML-31 Series Blue LED; 1608(0603); Rectangle Lens SMD package
-4,"FUD1, FUD2, FUD3, FUD4",,Fiducial,,,Fiducial
+6,"FUD1, FUD2, FUD3, FUD4, FUD5, FUD6",,Fiducial,,,Fiducial
 2,"M1, M2",,DC Motor,S-snail,DC Gear Motor with Smart Car Robot Plastic Tire Wheel,65 x 26mm Plastic Tire Wheel with DC 3-6v Gear Motor Dual Shaft for Arduino Smart Car
 4,"MGT1, MGT2, MGT3, MGT4",,Mounting Hole,,,Chassis Mounting Hole w/GND Connection Ability
 2,"R1, R2",1KΩ,0603 Resistor,MacroFab,MF-RES-0603-1K,Resistor Thick Film 0603 1K Ohm 5% 100mW 75V
