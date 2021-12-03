@@ -1,16 +1,15 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"";
-"1";"0.1";"R_R0805";"R0805";"R5";"RESISTOR, American symbol";"";
-"1";"0.1μ";"C_C0603";"C0603";"C1";"Capacitor SMD.";"";
-"2";"10K";"R_R0603";"R0603";"R3, R4";"RESISTOR, American symbol";"";
-"2";"1K";"R_R0603";"R0603";"R1, R2";"RESISTOR, American symbol";"";
-"1";"BLUE_LED";"LED";"LED_EIA_STD";"D2";"EIA-STD LED; LTST-C191TBKT";"";
-"6";"FIDUCIAL";"FIDUCIAL";"FIDUCIAL_40MIL";"FUD1, FUD2, FUD3, FUD4, FUD5, FUD6";"";"";
-"1";"LEFT_MOTOR";"DC_MOTOR";"DC_MOTOR";"M2";"";"";
-"1";"MOTOR_DRIVER_L293D";"MOTOR_DRIVER_L293D";"MOTOR_DRIVER";"U2";"";"";
-"4";"MOUNTING_HOLE";"MOUNTING_HOLE";"MOUNTING_HOLE";"MGT1, MGT2, MGT3, MGT4";"Chassis Mounting Hole w/GND connection ability";"";
-"1";"POCKETBEAGLE";"POCKETBEAGLE";"POCKETBEAGLE";"U1";"";"";
-"2";"PUSH_BUTTON";"PUSH_BUTTON";"PUSH_BUTTON_12.5MM";"SW1, SW2";"";"";
-"1";"RIGHT_MOTOR";"DC_MOTOR";"DC_MOTOR";"M1";"";"";
-"1";"SERVO_SG90";"SERVO_SG90";"SERVO";"U4";"";"";
-"1";"TEMP_SENSOR_SI7021";"TEMP_SENSOR_SI7021";"TEMP_SENSOR";"U3";"";"";
-"1";"YELLOW_LED";"LED";"LED_EIA_STD";"D1";"EIA-STD LED; LTST-C191TBKT";"";
+﻿Quantity,Designator,Value,Device,Manufactorer,MPN ,Description
+1,C1,0.1F,0603 Capacitor,MacroFab,MF-CAP-0603-0.1uF,Capacitor MLCC 0603 0.1uF 10% 25V
+1,D1,Yellow,0603 LED,ROHM,SML-310YTT86,ROHM SML-310YTT86; SML31 Series Yellow LED; 1608(0603); Rectangle Lens SMD package
+1,D2,Blue,0603 LED,ROHM,SML312BCTT86,ROHM SML312BCTT86; SML-31 Series Blue LED; 1608(0603); Rectangle Lens SMD package
+4,"FUD1, FUD2, FUD3, FUD4",,Fiducial,,,Fiducial
+2,"M1, M2",,DC Motor,S-snail,DC Gear Motor with Smart Car Robot Plastic Tire Wheel,65 x 26mm Plastic Tire Wheel with DC 3-6v Gear Motor Dual Shaft for Arduino Smart Car
+4,"MGT1, MGT2, MGT3, MGT4",,Mounting Hole,,,Chassis Mounting Hole w/GND Connection Ability
+2,"R1, R2",1KΩ,0603 Resistor,MacroFab,MF-RES-0603-1K,Resistor Thick Film 0603 1K Ohm 5% 100mW 75V
+2,"R3, R4",1Ω,0603 Resistor,MacroFab,MF-RES-0603-10K,Resistor Thick Film 0603 10K Ohm 5% 100mW 75V
+1,R5,0.1Ω,0805 Resistor,CTS Components,73L3R10J,Res Thick Film 0805 0.1 Ohm 5% 1/8W ±200ppm/°C Molded SMD SMD Paper T/R
+2,"S1, S2",12.5mm ,Push Button,Omron,B3F-4055,Switch Tactile N.O. SPST Projected Plunger PC Pins 0.05A 24VDC 2.55N Thru-Hole Bag
+1,U1,,PocketBeagle,BeagleBoard,POCKETBEAGLE,OSD3358-SM Application Processor and SOC Development Board 1000MHz CPU 512MB RAM 4KB I2C EEPROM Debian GNU/Linux
+1,U2,,Motor Driver,Texas Instruments,L293DNE,"Half-H Drivers, Quadruple, 4.5-36.0 Vsupply, 600 mA Iout, Pb-Free PDIP16"
+1,U3,,Temperature Sensor,Silicon Labs,SI7021-A20-IM1R,Humidity/Temperature Sensor Digital Serial (I2C) 6-Pin DFN EP T/R
+1,U4,,Servo,Tower Pro,SG90,SG90 9G Micro Servo Rotates 180 Degrees
